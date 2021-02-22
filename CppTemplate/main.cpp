@@ -1,25 +1,34 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+    Author:  Danny McVey
+    Date:    February 22th, 2021  7:52am
+    Purpose: C++ Template to be used in all programs
+    Version: First and Last
  */
 
-/* 
- * File:   main.cpp
- * Author: dann7982
- *
- * Created on February 22, 2021, 7:51 AM
- */
+//System Libraries
+#include <iostream>    //Input/Output Library
+using namespace std;   //Library Name-space
 
-#include <cstdlib>
+//User Libraries
 
-using namespace std;
+//Global/Universal Constants -- No Global Variables
+//Science, Math, Conversions, Higher Dimensioned constants only
 
-/*
- * 
- */
+//Function Prototypes
+
+//Execution Begins Here
 int main(int argc, char** argv) {
-
+    //Set the Random number seed
+    
+    //Declare variables
+    
+    //Initialize variables
+    
+    //Process, map inputs to outputs
+    
+    //Display your initial conditions as well as outputs.
+    
+    //Exit stage right
     return 0;
 }
 
