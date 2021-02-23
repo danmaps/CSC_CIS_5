@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# weird netbeans stuff?
+*.LCKmain.cpp~

@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
     //Process, map inputs to outputs
     total = fifty + hundred;
     
-    //Display your initial conditions as well as outputs.
+    //Display initial conditions as well as outputs.
     cout<<fifty<<"+"<<hundred<<"="<<total;
     
     //Exit stage right
