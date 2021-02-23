@@ -1,7 +1,8 @@
 /*
     Author:  Danny McVey
     Date:    Feb 23, 2021 
-    Purpose: C++ Template to be used in all programs
+    Purpose: how many bytes the following data types use:
+             char, int, float, double
     Version: 1
  */
 
@@ -18,14 +19,10 @@ using namespace std;   //Library Name-space
 
 //Execution Begins Here
 int main(int argc, char** argv) {  
-    //Declare variables
-    
-    //Initialize variables
-    
-    //Process, map inputs to outputs
-    
-    //Display initial conditions as well as outputs.
-    
+    cout << "Size of char : " << sizeof(char) << " byte" << endl;
+    cout << "Size of int : " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float : " << sizeof(float) << " bytes" <<endl;
+    cout << "Size of double : " << sizeof(double) << " bytes" << endl;
     //Exit stage right
     return 0;
 }

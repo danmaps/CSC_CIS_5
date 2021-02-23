@@ -1,7 +1,7 @@
 /*
     Author:  Danny McVey
     Date:    Feb 23, 2021 
-    Purpose: C++ Template to be used in all programs
+    Purpose: calculates the number of miles per gallon a car gets
     Version: 1
  */
 
@@ -19,12 +19,17 @@ using namespace std;   //Library Name-space
 //Execution Begins Here
 int main(int argc, char** argv) {  
     //Declare variables
+    float tank,range,mpg;
     
     //Initialize variables
+    tank=15; // car holds 15 gallons of gasoline
+    range=375; // car can travel 375 miles before refueling
     
     //Process, map inputs to outputs
+    mpg=range/tank;
     
     //Display initial conditions as well as outputs.
+    cout<<mpg<<" miles per gallon";
     
     //Exit stage right
     return 0;
