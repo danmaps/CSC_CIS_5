@@ -1,8 +1,8 @@
 /*
     Author:  Danny McVey
-    Date:    February 22th, 2021  7:52am
-    Purpose: C++ Template to be used in all programs
-    Version: First and Last
+    Date:    February 23th, 2021  11:58am
+    Purpose: Sum of Two Numbers
+    Version: 1
  */
 
 //System Libraries
@@ -19,12 +19,19 @@ using namespace std;   //Library Name-space
 //Execution Begins Here
 int main(int argc, char** argv) {  
     //Declare variables
+    int fifty,
+        hundred,
+        total;
     
     //Initialize variables
+    fifty = 50;
+    hundred = 100;
     
     //Process, map inputs to outputs
+    total = fifty + hundred;
     
-    //Display initial conditions as well as outputs.
+    //Display your initial conditions as well as outputs.
+    cout<<fifty<<"+"<<hundred<<"="<<total;
     
     //Exit stage right
     return 0;
