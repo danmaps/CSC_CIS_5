@@ -3,9 +3,9 @@
     Date:    February 23rd, 2021  12:09pm
     Purpose: Sales Prediction
         The East Coast sales division of a company generates 58 percent of total
-        sales. Based on that percentage, this program that predicts how much the 
-        East Coast division will generate if the company has $8.6 million in
-        sales this year.
+        sales. Based on that percentage, this program predicts how much the East
+        Coast division will generate if the company has $8.6 million in sales
+        this year.
     Version: 1
  */
 
