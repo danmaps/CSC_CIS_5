@@ -24,13 +24,15 @@ using namespace std;   //Library Name-space
 int main(int argc, char** argv) {  
     //Declare variables
     float sales,
+          ratio,
           eCoast;
     
     //Initialize variables
     sales = 8.6e6f;
+    ratio = 0.58;
     
     //Process, map inputs to outputs
-    eCoast = 0.58 * sales;
+    eCoast = ratio * sales;
     
     //Display initial conditions as well as outputs.
     cout<<"East Coast division: ";
