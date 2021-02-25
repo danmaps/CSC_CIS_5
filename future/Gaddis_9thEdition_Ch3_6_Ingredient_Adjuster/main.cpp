@@ -20,6 +20,7 @@ using namespace std; //Library Name-space
 //Execution Begins Here
 
 int main(int argc, char** argv) {
+    
     //Declare variables
     float cookies,sugar,butter,flour;
 
