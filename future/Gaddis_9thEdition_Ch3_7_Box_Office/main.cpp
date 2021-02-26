@@ -42,8 +42,9 @@ int main(int argc, char** argv) {
     paid=gross-net;
     
     //Display initial conditions as well as outputs.
-    using std::setw;
     
+    //setw for columnar formatting 
+    using std::setw;
     cout<<"\n"<<setw(30)<<"movie name: \""<<movie<<"\""<<endl;
     cout<<setw(29)<<"adult tickets: "<<adult<<endl;
     cout<<setw(29)<<"child tickets: "<<child<<endl;
