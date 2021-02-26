@@ -16,13 +16,9 @@ using namespace std; //Library Name-space
 //Science, Math, Conversions, Higher Dimensioned constants only
 
 //Function Prototypes
+float cToF(float c);
 
 //Execution Begins Here
-
-float cToF(float c){
-    float f = ((9.0/5.0)*c)+32;
-    return f;
-}
 
 int main(int argc, char** argv) {
     float cels, fahr;
@@ -39,3 +35,7 @@ int main(int argc, char** argv) {
     return 0;
 }
 
+float cToF(float c){
+    float f = ((9.0/5.0)*c)+32;
+    return f;
+}

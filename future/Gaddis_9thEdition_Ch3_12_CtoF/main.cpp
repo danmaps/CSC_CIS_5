@@ -21,10 +21,10 @@ using namespace std; //Library Name-space
 int main(int argc, char** argv) {
     float cels, fahr;
 
-    cout<<"celsius:";
-    cin>>cels;
-    fahr = ((9.0/5.0)*cels)+32;    
-    cout<<"fahrenheit:"<<fahr;
+    cout<<"celsius:"; 
+    cin>>cels; // get input temp
+    fahr = ((9.0/5.0)*cels)+32; // do the math   
+    cout<<"fahrenheit:"<<fahr; // display output
     
     //Exit stage right
     return 0;
