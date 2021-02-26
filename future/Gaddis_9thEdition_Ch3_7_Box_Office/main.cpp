@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
  
     //Initialize variables
     cout<<"movie name: ";
-    getline(cin, movie);
+    getline(cin, movie); //this way, the string can include spaces
     cout<<"adult tickets sold: ";
     cin>>adult;
     cout<<"child tickets sold: ";
