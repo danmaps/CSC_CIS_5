@@ -21,19 +21,18 @@ using namespace std;   //Library Name-space
 //Execution Begins Here
 int main(int argc, char** argv) {  
     //Declare variables
-    float meal,taxRate,tip; //inputs
-    float taxAmt,tipAmt,subTotal,total;
+    float meal,taxRate,tipPrc; //inputs
+    float taxAmt,tipAmt,total;
     
     //Initialize variables
     meal = 88.67;
     taxRate = 0.0675;
-    tip = 0.20;
+    tipPrc = 0.20;
     
     //Process, map inputs to outputs
     taxAmt = meal*taxRate;
-    subTotal = meal + taxAmt;
-    tipAmt = subTotal*tip;
-    total = subTotal + tipAmt;
+    tipAmt = (meal + taxAmt)*tipPrc;
+    total = meal + taxAmt + tipAmt;
     
     //Display initial conditions as well as outputs.
     std::cout.precision(2);
