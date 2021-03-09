@@ -1,13 +1,13 @@
 /*
     Author:  Danny McVey
-    Date:    February 26, 2021, 2:35 PM
-    Purpose: Asks the user to input how many cookies they ate and reports how
-             many total calories were consumed.
+    Date:    March 5, 2021, 9:28 PM
+    Purpose: https://www.youtube.com/watch?v=5Yy_unGaD-w
     Version: 1
  */
 
 //System Libraries
 #include <iostream>    //Input/Output Library
+#include <cmath> // needed for pow function
 using namespace std; //Library Name-space
 
 //User Libraries
@@ -21,18 +21,20 @@ using namespace std; //Library Name-space
 
 int main(int argc, char** argv) {
     //Declare variables
-    unsigned short eaten, // cookies eaten
-            cals; // calories consumed
-
+    unsigned short x,y; // size of the image in pixels
+    int depth; // number of possible colors
+    long double images; // output: number of possible images
+   
     //Initialize variables
-    cout<<"How many cookies did you eat? ";
-    cin>>eaten; 
+    x=64;
+    y=64;
+    depth=64;
     
     //Process, map inputs to outputs
-    cals=(eaten/3)*300;
+    images = pow((x*y),depth);
     
     //Display initial conditions as well as outputs.
-    cout<<cals<<" calories consumed";
+    cout<<images; // 64,64,64 returns 1.55252e+231 which is huge?
     
     //Exit stage right
     return 0;

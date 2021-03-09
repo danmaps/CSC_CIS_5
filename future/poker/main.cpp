@@ -1,8 +1,7 @@
 /*
     Author:  Danny McVey
-    Date:    February 26, 2021, 2:35 PM
-    Purpose: Asks the user to input how many cookies they ate and reports how
-             many total calories were consumed.
+    Date:    March 2, 2021, 12:44 PM
+    Purpose: Project 1 prototyping
     Version: 1
  */
 
@@ -21,20 +20,14 @@ using namespace std; //Library Name-space
 
 int main(int argc, char** argv) {
     //Declare variables
-    unsigned short eaten, // cookies eaten
-            cals; // calories consumed
+    char rank,suit;
 
     //Initialize variables
-    cout<<"How many cookies did you eat? ";
-    cin>>eaten; 
-    
+
     //Process, map inputs to outputs
-    cals=(eaten/3)*300;
-    
+
     //Display initial conditions as well as outputs.
-    cout<<cals<<" calories consumed";
-    
+
     //Exit stage right
     return 0;
 }
-
