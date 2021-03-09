@@ -2,6 +2,8 @@
     Author:  Danny McVey
     Date:    March 5, 2021, 9:28 PM
     Purpose: https://www.youtube.com/watch?v=5Yy_unGaD-w
+             other ideas: - generate a random image from the set
+                          - calculate the size of the images on disk (total)
     Version: 1
  */
 
